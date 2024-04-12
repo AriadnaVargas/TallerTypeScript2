@@ -1,0 +1,32 @@
+
+.table {
+    width: auto; 
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  
+  .table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  
+  .table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: whitesmoke;
+    color: black;
+  }
+  
+  
+  .table tr:hover {background-color: #f5f5f5;}
+
+  .card {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  

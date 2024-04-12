@@ -5,6 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel = "stylesheet" type="text/css" href="tallertypescript.css">
     <script type = "module" src='./scripts/data.js'></script>
 </head>
 <body>
@@ -12,6 +13,7 @@
         <img src="./tvSeries.jpeg" alt="Image description" width="50" height="50">
         <h1> TV Series </h1>
     </div>
+    <div style="display: flex; justify-content: center; align-items: flex-start;">
     <table class="table table-striped" id="series">
         <thead>
           <tr>
@@ -22,7 +24,14 @@
           </tr>
         </thead>
     </table>
-    <table class = "table" id="promedio"></table>
+    <div id="details" class="card" style="width: 18rem; margin-left: auto;">
+      <div class="card-body">
+          <h5 class="card-title">Información de una serie</h5>
+          <p class="card-text" id="details-text">Haga click en una serie para ver su información.</p>
+      </div>
+  </div>
+</div>
+  <table class = "table" id="promedio"></table>
 
 </body>
 </html>
